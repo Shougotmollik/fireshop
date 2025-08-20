@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "77486739062",
+    "project_id": "fireshop-2072c",
+    "storage_bucket": "fireshop-2072c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77486739062:android:ab3b6bfd0e9692a09b1957",
+        "android_client_info": {
+          "package_name": "com.shougot.fireshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6lcIxHCOBx3TVnCfX-qDuoUOwcgLFHb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
