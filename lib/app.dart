@@ -1,7 +1,5 @@
+import 'package:fireshop/admin/views/auth/screens/admin_login_screen.dart';
 import 'package:fireshop/controller_binder.dart';
-import 'package:fireshop/services/storage_service.dart';
-import 'package:fireshop/views/auth/screens/login_screen.dart';
-import 'package:fireshop/views/main_nav/main_nav_bar_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -13,9 +11,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'FireShop',
       initialBinding: ControllerBinder(),
-      home: StorageService.userSession != null
-          ? MainNavBarScreen()
-          : LoginScreen(),
+      home: AdminLoginScreen(),
     );
   }
 }
