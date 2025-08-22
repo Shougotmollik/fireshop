@@ -1,4 +1,4 @@
-import 'package:fireshop/admin/views/auth/screens/admin_login_screen.dart';
+import 'package:fireshop/admin/views/home/add_product_screen.dart';
 import 'package:fireshop/controller_binder.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'FireShop',
       initialBinding: ControllerBinder(),
-      home: AdminLoginScreen(),
+      home: AddProductScreen(),
     );
   }
 }
